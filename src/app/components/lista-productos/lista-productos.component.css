@@ -14,11 +14,13 @@ h3 {
     width: 24%;
     margin: 5px;
     border: 1px solid gray;
+    cursor: pointer;
 
 }
 
-.poducto img {
+.producto img {
     width: 100%;
+
 }
 
 .producto p {

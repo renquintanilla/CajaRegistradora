@@ -1,0 +1,34 @@
+h3 {
+    text-transform: uppercase;
+    background-color: lightgray ;
+    padding: 10px;
+}
+
+h6 {
+    font-size: large;
+    color: blue;
+}
+
+/* .productos {
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+table {
+  border: 1px solid;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  border-collapse: collapse;
+}
+
+.centrado {
+    text-align: center;
+}
+
+.derecho {
+    text-align: right;
+}
