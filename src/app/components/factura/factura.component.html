@@ -10,7 +10,7 @@
         </thead>
         <tbody>
                 <tr *ngFor="let producto of arrProductos; let indice = index;" (click)="onClickBorrar(indice)">
-                    <td>{{ producto.nombre }} </td>
+                    <td appResaltado>{{ producto.nombre }} </td>
                     <td class="centrado">{{ producto.cantidad }} </td>
                     <td class="derecho">${{ producto.precio * producto.cantidad }} </td>
                 </tr>
