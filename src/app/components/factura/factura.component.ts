@@ -11,7 +11,7 @@ export class FacturaComponent implements OnInit {
 @Input() arrProductos: Producto[];
 
 
-  constructor() { 
+  constructor() {
     this.arrProductos = [];
   }
 
