@@ -1,4 +1,5 @@
 
+
 import { Directive, ElementRef, Renderer2, HostListener } from '@angular/core';
 
 @Directive({
@@ -13,6 +14,7 @@ export class ResaltadoDirective {
 
 @HostListener('mouseover') onMouseOver() {
   this.renderer.setStyle(this.elem.nativeElement, 'color', 'green')
+  /* this.renderer.setStyle(this.elem.nativeElement,'tr:nth-child(event)','blue') */
 }
 
 @HostListener('mouseout') onMouseOut() {
