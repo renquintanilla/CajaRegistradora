@@ -9,19 +9,14 @@ h6 {
     color: blue;
 }
 
-/* .productos {
-    display: flex;
-    flex-direction: column;
-    
-} */
-
 table {
-  border: 1px solid;
+  border: 1px solid coral;
   width: 100%;
   border-collapse: collapse;
 }
 
 th {
+  background-color: chartreuse;
   border-collapse: collapse;
 }
 
@@ -31,4 +26,19 @@ th {
 
 .derecho {
     text-align: right;
+}
+
+tr:nth-child(even)
+ {
+  padding: 5px;
+  background-color:blanchedalmond;
+ }
+
+tr:hover
+ {
+  background-color:darkgray;
+ }
+
+table, th, tr, td{
+  border: 1px solid bisque;
 }
